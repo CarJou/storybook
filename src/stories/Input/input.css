@@ -1,0 +1,40 @@
+.storybook-input {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  border: 1px solid;
+}
+
+.storybook-dark {
+  color: #fafafa;
+  background-color: #292f37;
+  border-color: #0171ff;
+  box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+  background-image: url("../assets/search-line-white.svg");
+  &:focus {
+    outline-color: #0171ff;
+  }
+}
+
+.storybook-light {
+  color: black;
+  border-color: rgb(254, 189, 200);
+  background-color: rgba(254, 213, 220, 0.705);
+  box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.188);
+  -moz-box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.16);
+  background-image: url("../assets/search-line.svg");
+  &:focus {
+    outline-color:  rgb(254, 189, 200);
+  }
+}
+
+
+.storybook-large {
+  min-width: 320px;
+}

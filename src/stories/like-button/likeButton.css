@@ -1,0 +1,23 @@
+.storybook-button {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 5px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.storybook-dark {
+  color: #fafafa;
+  background-color: #292f37;
+}
+
+.storybook-light {
+  color: black;
+  background-color: rgba(254, 213, 220, 0.705);
+}

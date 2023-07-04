@@ -1,0 +1,66 @@
+.storybook-div {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  max-width: 350px;
+  border-radius: 50px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.styled-img {
+  border-radius: 30px;
+}
+
+.styled-bio-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.styled-title {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.styled-text {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0 30px;
+}
+.storybook-dark {
+  color: rgb(252, 229, 229);
+  background-color: rgb(110, 63, 71);
+  box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 8px 11px 16px 7px rgba(0, 0, 0, 0.28);
+}
+
+.storybook-light {
+  color: rgb(153, 64, 79);
+  background-color: rgb(254, 213, 220);
+  box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 8px 11px 54px -6px rgba(0, 0, 0, 0.27);
+}
+
+.storybook-medium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storybook-large {
+  display: flex;
+  flex-direction: row;
+  max-width: min-content;
+  align-items: center;
+  .styled-bio-content {
+    align-items: flex-start;
+    width: 400px;
+  }
+  .styled-text {
+    padding: 0px;
+  }
+  
+}
