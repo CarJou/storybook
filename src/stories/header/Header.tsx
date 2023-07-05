@@ -1,9 +1,9 @@
 import React from 'react';
 
 import './header.css';
-import { ButtonTest } from './button/ButtonTest';
+import { ButtonTest } from '../button/ButtonTest';
 import Image from "next/image";
-import HeartFill from "./assets/heart-fill.svg";
+import HeartFill from "../assets/heart-fill.svg";
 
 type User = {
   name: string;
